@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Save Important Links</title>
+	<link rel="stylesheet" type="text/css" href="saveLinks.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+	<h1>Save Your Important Links</h1>
+	<div class="main">
+		<p id="isadded">No link has been added :)</p>
+		<div id="links"></div>
+		<div id="newLink" class="hidetxt">
+			<div>
+				<input type="title" name="title" placeholder="Add title" autocomplete="off" id="addTitle"><br>
+				<input type="url" name="link" placeholder="Add Link" autocomplete="off" id="addURL">
+			</div>
+			<div class="buttons">
+				<button id="add">Add</button>
+				<button id="cancel">Cancel</button>
+			</div>
+		</div>
+	</div>
+	<div class="buttons">
+		<button id="addLink">Add Link</button>
+		<button id="deleteLink">Delete Link</button>
+	</div>
+	<script src="saveLinks.js"></script>
+</body>
+</html>

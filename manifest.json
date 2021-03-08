@@ -1,0 +1,13 @@
+{
+	"name" : "Save Links",
+	"description" : "Extension to save your all your important links at one place.",
+	"version" : "1.0.0",
+	"manifest_version" : 2,
+	"browser_action" :{
+		"default_popup" : "index.html",
+		"default_icon" : "save_link.png"
+	},
+	"permissions" : [  
+		"activeTab","declarativeContent","storage","tabs"
+	]
+}
